@@ -12,7 +12,6 @@ export default defineConfig({
     server: { entry: "server" },
   },
 
-  // Use Node.js server output for Coolify deployment
   nitro: {
     preset: "node-server",
   },
